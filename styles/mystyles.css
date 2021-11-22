@@ -1,0 +1,101 @@
+body{
+    background-image: url(../images/homebg.webp);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.whiteboxhead{
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.smallhead{
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+.bighead{
+    font-size: 60px;
+    font-style: normal;
+}
+
+.common{
+    position: absolute;
+}
+
+.aboutmeimage{
+    z-index: 3;
+    right: 300px;
+    top: 420px;
+    height: 100px;
+    width: 100px;
+}
+
+.resumeimage{
+    z-index: 3;
+    right: 50px;
+    bottom: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.resume{
+    text-align: left;
+    font-style: normal;
+}
+
+.contactme{
+    text-align: center;
+}
+
+.video{
+    position: absolute;
+    top: 1550px;
+    left: 400px;
+    height: 200px;
+    width: 200px;
+}
+
+.textstyle{
+    font-style: normal;
+}
+
+.tableaunav{
+    background-color: rgb(31, 22, 20);
+    text-align: center;
+    font-size: 20px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    padding-top: 25;
+    padding-bottom: 25;
+    list-style-type: none;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.navitems{
+    display: inline;
+}
+
+.navlinksstyles{
+    padding: 20px;
+    color: rgb(230, 224, 224);
+    font-style: normal;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    color: #e6a756;
+} 
+
+a:active{
+    color: #e6a756;
+}
